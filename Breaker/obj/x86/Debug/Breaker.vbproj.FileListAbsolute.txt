@@ -1,0 +1,14 @@
+c:\users\lboudreaux\documents\visual studio 2010\Projects\Breaker\Breaker\bin\Debug\Breaker.exe.config
+c:\users\lboudreaux\documents\visual studio 2010\Projects\Breaker\Breaker\bin\Debug\Breaker.exe
+c:\users\lboudreaux\documents\visual studio 2010\Projects\Breaker\Breaker\bin\Debug\Breaker.pdb
+c:\users\lboudreaux\documents\visual studio 2010\Projects\Breaker\Breaker\bin\Debug\Breaker.xml
+c:\users\lboudreaux\documents\visual studio 2010\Projects\Breaker\Breaker\obj\x86\Debug\Breaker.OptionsForm.resources
+c:\users\lboudreaux\documents\visual studio 2010\Projects\Breaker\Breaker\obj\x86\Debug\Breaker.Resources.resources
+c:\users\lboudreaux\documents\visual studio 2010\Projects\Breaker\Breaker\obj\x86\Debug\Breaker.exe
+c:\users\lboudreaux\documents\visual studio 2010\Projects\Breaker\Breaker\obj\x86\Debug\Breaker.xml
+c:\users\lboudreaux\documents\visual studio 2010\Projects\Breaker\Breaker\obj\x86\Debug\Breaker.pdb
+c:\users\lboudreaux\documents\visual studio 2010\Projects\Breaker\Breaker\obj\x86\Debug\Breaker.BreakForm.resources
+c:\users\lboudreaux\documents\visual studio 2010\Projects\Breaker\Breaker\obj\x86\Debug\Breaker.WarningForm.resources
+C:\Users\lboudreaux\Documents\Visual Studio 2010\Projects\Breaker\Breaker\bin\Debug\DOATransparentLabel.dll
+C:\Users\lboudreaux\Documents\Visual Studio 2010\Projects\Breaker\Breaker\bin\Debug\DOATransparentLabel.pdb
+C:\Users\lboudreaux\Documents\Visual Studio 2010\Projects\Breaker\Breaker\obj\x86\Debug\Breaker.vbproj.GenerateResource.Cache
