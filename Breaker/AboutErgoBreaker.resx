@@ -157,7 +157,7 @@
     <value>tblText</value>
   </data>
   <data name="&gt;&gt;lblProductName.ZOrder" xml:space="preserve">
-    <value>1</value>
+    <value>2</value>
   </data>
   <data name="lblVersion.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -663,7 +663,7 @@
     <value>6</value>
   </data>
   <data name="lnkSorceforge.Text" xml:space="preserve">
-    <value>ErgoBreaker on SourceForge</value>
+    <value>ErgoBreaker on GitHub</value>
   </data>
   <data name="&gt;&gt;lnkSorceforge.Name" xml:space="preserve">
     <value>lnkSorceforge</value>
@@ -675,43 +675,52 @@
     <value>tblText</value>
   </data>
   <data name="&gt;&gt;lnkSorceforge.ZOrder" xml:space="preserve">
-    <value>2</value>
-  </data>
-  <data name="lnkCompany.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="lnkCompany.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
-    <value>Fill</value>
-  </data>
-  <data name="lnkCompany.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Verdana, 9pt</value>
-  </data>
-  <data name="lnkCompany.Location" type="System.Drawing.Point, System.Drawing">
-    <value>3, 60</value>
-  </data>
-  <data name="lnkCompany.Size" type="System.Drawing.Size, System.Drawing">
-    <value>277, 20</value>
-  </data>
-  <data name="lnkCompany.TabIndex" type="System.Int32, mscorlib">
-    <value>7</value>
-  </data>
-  <data name="lnkCompany.Text" xml:space="preserve">
-    <value>Solitude Software</value>
-  </data>
-  <data name="&gt;&gt;lnkCompany.Name" xml:space="preserve">
-    <value>lnkCompany</value>
-  </data>
-  <data name="&gt;&gt;lnkCompany.Type" xml:space="preserve">
-    <value>System.Windows.Forms.LinkLabel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;lnkCompany.Parent" xml:space="preserve">
-    <value>tblText</value>
-  </data>
-  <data name="&gt;&gt;lnkCompany.ZOrder" xml:space="preserve">
     <value>3</value>
   </data>
   <data name="tblText.ColumnCount" type="System.Int32, mscorlib">
     <value>1</value>
+  </data>
+  <data name="lblAuthor.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblAuthor.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="lblAuthor.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Verdana, 9pt</value>
+  </data>
+  <data name="lblAuthor.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lblAuthor.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 60</value>
+  </data>
+  <data name="lblAuthor.MaximumSize" type="System.Drawing.Size, System.Drawing">
+    <value>0, 17</value>
+  </data>
+  <data name="lblAuthor.Size" type="System.Drawing.Size, System.Drawing">
+    <value>277, 17</value>
+  </data>
+  <data name="lblAuthor.TabIndex" type="System.Int32, mscorlib">
+    <value>9</value>
+  </data>
+  <data name="lblAuthor.Text" xml:space="preserve">
+    <value>Author Lance Boudreaux</value>
+  </data>
+  <data name="lblAuthor.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="&gt;&gt;lblAuthor.Name" xml:space="preserve">
+    <value>lblAuthor</value>
+  </data>
+  <data name="&gt;&gt;lblAuthor.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblAuthor.Parent" xml:space="preserve">
+    <value>tblText</value>
+  </data>
+  <data name="&gt;&gt;lblAuthor.ZOrder" xml:space="preserve">
+    <value>0</value>
   </data>
   <data name="lnkFrench.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -750,7 +759,7 @@
     <value>tblText</value>
   </data>
   <data name="&gt;&gt;lnkFrench.ZOrder" xml:space="preserve">
-    <value>0</value>
+    <value>1</value>
   </data>
   <data name="tblText.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
     <value>Fill</value>
@@ -780,7 +789,7 @@
     <value>0</value>
   </data>
   <data name="tblText.LayoutSettings" type="System.Windows.Forms.TableLayoutSettings, System.Windows.Forms">
-    <value>&lt;?xml version="1.0" encoding="utf-16"?&gt;&lt;TableLayoutSettings&gt;&lt;Controls&gt;&lt;Control Name="lnkFrench" Row="5" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="lblProductName" Row="0" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="lnkSorceforge" Row="4" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="lnkCompany" Row="3" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="lblVersion" Row="1" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="lblCopyright" Row="2" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;/Controls&gt;&lt;Columns Styles="Percent,100" /&gt;&lt;Rows Styles="Absolute,20,Absolute,20,Absolute,20,Absolute,20,Absolute,20,Absolute,20" /&gt;&lt;/TableLayoutSettings&gt;</value>
+    <value>&lt;?xml version="1.0" encoding="utf-16"?&gt;&lt;TableLayoutSettings&gt;&lt;Controls&gt;&lt;Control Name="lblAuthor" Row="3" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="lnkFrench" Row="5" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="lblProductName" Row="0" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="lnkSorceforge" Row="4" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="lblVersion" Row="1" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="lblCopyright" Row="2" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;/Controls&gt;&lt;Columns Styles="Percent,100" /&gt;&lt;Rows Styles="Absolute,20,Absolute,20,Absolute,20,Absolute,20,Absolute,20,Absolute,20,Absolute,20,Absolute,20,Absolute,20,Absolute,20,Absolute,20,Absolute,20,Absolute,20,Absolute,20,Absolute,20,Absolute,20,Absolute,20,Absolute,20,Absolute,20,Absolute,20,Absolute,20,Absolute,20,Absolute,20,Absolute,20,Absolute,20,Absolute,20,Absolute,20,Absolute,20,Absolute,20,Absolute,20,Absolute,20,Absolute,20,Absolute,20,Absolute,20,Absolute,20,Absolute,20,Absolute,20,Absolute,20,Absolute,20,Absolute,20,Absolute,20,Absolute,20,Absolute,20,Absolute,20,Absolute,20,Absolute,20,Absolute,20,Absolute,20,Absolute,20,Absolute,20,Absolute,20,Absolute,20,Absolute,20,Absolute,20" /&gt;&lt;/TableLayoutSettings&gt;</value>
   </data>
   <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>True</value>

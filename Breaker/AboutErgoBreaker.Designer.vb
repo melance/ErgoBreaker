@@ -32,9 +32,9 @@ Partial Class AboutErgoBreaker
         Me.lblCopyright = New System.Windows.Forms.Label()
         Me.LogoPictureBox = New System.Windows.Forms.PictureBox()
         Me.lnkSorceforge = New System.Windows.Forms.LinkLabel()
-        Me.lnkCompany = New System.Windows.Forms.LinkLabel()
         Me.tblText = New System.Windows.Forms.TableLayoutPanel()
         Me.lnkFrench = New System.Windows.Forms.LinkLabel()
+        Me.lblAuthor = New System.Windows.Forms.Label()
         CType(Me.LogoPictureBox, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.tblText.SuspendLayout()
         Me.SuspendLayout()
@@ -68,20 +68,13 @@ Partial Class AboutErgoBreaker
         Me.lnkSorceforge.TabStop = True
         Me.lnkSorceforge.UseCompatibleTextRendering = True
         '
-        'lnkCompany
-        '
-        resources.ApplyResources(Me.lnkCompany, "lnkCompany")
-        Me.lnkCompany.LinkBehavior = System.Windows.Forms.LinkBehavior.HoverUnderline
-        Me.lnkCompany.Name = "lnkCompany"
-        Me.lnkCompany.TabStop = True
-        '
         'tblText
         '
         resources.ApplyResources(Me.tblText, "tblText")
+        Me.tblText.Controls.Add(Me.lblAuthor, 0, 3)
         Me.tblText.Controls.Add(Me.lnkFrench, 0, 5)
         Me.tblText.Controls.Add(Me.lblProductName, 0, 0)
         Me.tblText.Controls.Add(Me.lnkSorceforge, 0, 4)
-        Me.tblText.Controls.Add(Me.lnkCompany, 0, 3)
         Me.tblText.Controls.Add(Me.lblVersion, 0, 1)
         Me.tblText.Controls.Add(Me.lblCopyright, 0, 2)
         Me.tblText.Name = "tblText"
@@ -93,6 +86,11 @@ Partial Class AboutErgoBreaker
         Me.lnkFrench.Name = "lnkFrench"
         Me.lnkFrench.TabStop = True
         Me.lnkFrench.UseCompatibleTextRendering = True
+        '
+        'lblAuthor
+        '
+        resources.ApplyResources(Me.lblAuthor, "lblAuthor")
+        Me.lblAuthor.Name = "lblAuthor"
         '
         'AboutErgoBreaker
         '
@@ -114,8 +112,8 @@ Partial Class AboutErgoBreaker
     End Sub
     Friend WithEvents LogoPictureBox As System.Windows.Forms.PictureBox
     Friend WithEvents lnkSorceforge As System.Windows.Forms.LinkLabel
-    Friend WithEvents lnkCompany As System.Windows.Forms.LinkLabel
     Friend WithEvents tblText As System.Windows.Forms.TableLayoutPanel
     Friend WithEvents lnkFrench As System.Windows.Forms.LinkLabel
+    Friend WithEvents lblAuthor As System.Windows.Forms.Label
 
 End Class

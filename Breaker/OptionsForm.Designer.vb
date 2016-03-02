@@ -352,11 +352,11 @@ Partial Class OptionsForm
         Me.ToolTip1.SetToolTip(Me.radOnLockPause, resources.GetString("radOnLockPause.ToolTip"))
         Me.radOnLockPause.UseVisualStyleBackColor = True
         '
-        'OnLockReset
+        'radOnLockReset
         '
-        resources.ApplyResources(Me.radOnLockReset, "OnLockReset")
-        Me.radOnLockReset.Name = "OnLockReset"
-        Me.ToolTip1.SetToolTip(Me.radOnLockReset, resources.GetString("OnLockReset.ToolTip"))
+        resources.ApplyResources(Me.radOnLockReset, "radOnLockReset")
+        Me.radOnLockReset.Name = "radOnLockReset"
+        Me.ToolTip1.SetToolTip(Me.radOnLockReset, resources.GetString("radOnLockReset.ToolTip"))
         Me.radOnLockReset.UseVisualStyleBackColor = True
         '
         'OptionsForm

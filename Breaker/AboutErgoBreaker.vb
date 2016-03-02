@@ -13,16 +13,14 @@
         Me.lblProductName.Text = My.Application.Info.ProductName
         Me.lblVersion.Text = String.Format("Version {0}", My.Application.Info.Version.ToString)
         Me.lblCopyright.Text = My.Application.Info.Copyright
-        Me.lnkCompany.Text = My.Application.Info.CompanyName
-
     End Sub
 
-    Private Sub lnkSorceForge_LinkClicked(sender As Object, e As LinkLabelLinkClickedEventArgs) Handles lnkSorceforge.LinkClicked
-        Process.Start("https://sourceforge.net/projects/ergobreaker/")
+    Private Sub lnkGitHub_LinkClicked(sender As Object, e As LinkLabelLinkClickedEventArgs) Handles lnkSorceforge.LinkClicked
+        Process.Start("https://github.com/melance/ErgoBreaker")
     End Sub
 
-    Private Sub lnkCompany_LinkClicked(sender As Object, e As LinkLabelLinkClickedEventArgs) Handles lnkCompany.LinkClicked
-        Process.Start("http://solitudesoftware.webs.com/")
+    Private Sub lnkCompany_LinkClicked(sender As Object, e As LinkLabelLinkClickedEventArgs)
+        Process.Start("https://github.com/melance")
     End Sub
 
     Private Sub lnkFrench_LinkClicked(sender As Object, e As LinkLabelLinkClickedEventArgs) Handles lnkFrench.LinkClicked
