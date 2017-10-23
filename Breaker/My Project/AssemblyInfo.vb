@@ -14,7 +14,7 @@ Imports System.Runtime.InteropServices
 <Assembly: AssemblyDescription("Lightweight configurable ergonomic break reminder")> 
 <Assembly: AssemblyCompany("Solitude Software")> 
 <Assembly: AssemblyProduct("ErgoBreaker")> 
-<Assembly: AssemblyCopyright("Copyright Lance Boudreaux © 2014")> 
+<Assembly: AssemblyCopyright("Copyright Lance Boudreaux © 2014 - 2017")> 
 <Assembly: AssemblyTrademark("")> 
 
 <Assembly: ComVisible(False)> 
@@ -33,7 +33,7 @@ Imports System.Runtime.InteropServices
 ' by using the '*' as shown below:
 ' <Assembly: AssemblyVersion("1.0.*")> 
 
-<Assembly: AssemblyVersion("1.0.0.3")> 
-<Assembly: AssemblyFileVersion("1.0.0.3")> 
+<Assembly: AssemblyVersion("1.0.0.4")> 
+<Assembly: AssemblyFileVersion("1.0.0.4")> 
 
 <Assembly: NeutralResourcesLanguageAttribute("en-US")> 
