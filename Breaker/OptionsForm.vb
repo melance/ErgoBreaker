@@ -25,6 +25,7 @@ Friend Class OptionsForm
     Private _secondsLeft As Int64 = 0
     Private _onBreak As Boolean = False
     Private _skippedBreaks As Int32 = 0
+    Private _breaksEndedEarly As Int32 = 0
     Private _childForms As Generic.List(Of BreakForm)
     Private WithEvents _warningForm As WarningForm
 
@@ -86,6 +87,11 @@ Friend Class OptionsForm
     End Sub
 
     Private Sub BreakForm_FormClosed(sender As Object, e As System.EventArgs)
+        If DirectCast(sender, BreakForm).UserClosed Then
+            _breaksEndedEarly += 1
+        Else
+            _breaksEndedEarly = 0
+        End If
         EndBreak()
     End Sub
 
@@ -159,7 +165,7 @@ Friend Class OptionsForm
             _warningForm.Location = New Point(Screen.PrimaryScreen.WorkingArea.Right - _warningForm.Width - 20, Screen.PrimaryScreen.WorkingArea.Bottom - _warningForm.Height - 20)
             _warningForm.Seconds = CInt(DateDiff(DateInterval.Second, DateTime.Now, _nextBreak))
             _warningForm.SkippedBreaks = _skippedBreaks
-            _warningForm.TopMost = True
+            _warningForm.BringToFront()
             _warningForm.Show()
         End If
         If _warningForm.Visible Then _warningForm.Seconds = CInt(DateDiff(DateInterval.Second, DateTime.Now, _nextBreak))

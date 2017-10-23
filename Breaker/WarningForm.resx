@@ -151,10 +151,10 @@
     <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;lblMessage.Parent" xml:space="preserve">
-    <value>Panel1</value>
+    <value>pnlMessage</value>
   </data>
   <data name="&gt;&gt;lblMessage.ZOrder" xml:space="preserve">
-    <value>1</value>
+    <value>2</value>
   </data>
   <data name="btnCancelBreak.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Bottom, Left</value>
@@ -163,7 +163,7 @@
     <value>System</value>
   </data>
   <data name="btnCancelBreak.Location" type="System.Drawing.Point, System.Drawing">
-    <value>93, 68</value>
+    <value>93, 56</value>
   </data>
   <data name="btnCancelBreak.Size" type="System.Drawing.Size, System.Drawing">
     <value>75, 24</value>
@@ -193,7 +193,7 @@
     <value>System</value>
   </data>
   <data name="btnHideWarning.Location" type="System.Drawing.Point, System.Drawing">
-    <value>12, 68</value>
+    <value>12, 56</value>
   </data>
   <data name="btnHideWarning.Size" type="System.Drawing.Size, System.Drawing">
     <value>75, 24</value>
@@ -223,7 +223,7 @@
     <value>System</value>
   </data>
   <data name="btnStartBreak.Location" type="System.Drawing.Point, System.Drawing">
-    <value>255, 68</value>
+    <value>255, 56</value>
   </data>
   <data name="btnStartBreak.Size" type="System.Drawing.Size, System.Drawing">
     <value>75, 24</value>
@@ -253,7 +253,7 @@
     <value>System</value>
   </data>
   <data name="btnDelayBreak.Location" type="System.Drawing.Point, System.Drawing">
-    <value>174, 68</value>
+    <value>174, 56</value>
   </data>
   <data name="btnDelayBreak.Size" type="System.Drawing.Size, System.Drawing">
     <value>75, 24</value>
@@ -295,7 +295,7 @@
     <value>5</value>
   </data>
   <data name="lblCancelledBreaks.Text" xml:space="preserve">
-    <value>You have cancelled your last {0} breaks</value>
+    <value>You have cancelled your last {0} breaks.</value>
   </data>
   <data name="lblCancelledBreaks.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
     <value>TopCenter</value>
@@ -307,30 +307,72 @@
     <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;lblCancelledBreaks.Parent" xml:space="preserve">
-    <value>Panel1</value>
+    <value>pnlMessage</value>
   </data>
   <data name="&gt;&gt;lblCancelledBreaks.ZOrder" xml:space="preserve">
-    <value>0</value>
+    <value>1</value>
   </data>
-  <data name="Panel1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>0, 0</value>
+  <data name="pnlMessage.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Bottom, Left, Right</value>
   </data>
-  <data name="Panel1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>343, 54</value>
+  <data name="lblQuitEarly.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Top</value>
   </data>
-  <data name="Panel1.TabIndex" type="System.Int32, mscorlib">
+  <data name="lblQuitEarly.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Verdana, 8.25pt</value>
+  </data>
+  <data name="lblQuitEarly.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lblQuitEarly.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 44</value>
+  </data>
+  <data name="lblQuitEarly.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 6, 0, 0</value>
+  </data>
+  <data name="lblQuitEarly.Size" type="System.Drawing.Size, System.Drawing">
+    <value>341, 22</value>
+  </data>
+  <data name="lblQuitEarly.TabIndex" type="System.Int32, mscorlib">
     <value>6</value>
   </data>
-  <data name="&gt;&gt;Panel1.Name" xml:space="preserve">
-    <value>Panel1</value>
+  <data name="lblQuitEarly.Text" xml:space="preserve">
+    <value>You quit your last {0} breaks early.</value>
   </data>
-  <data name="&gt;&gt;Panel1.Type" xml:space="preserve">
+  <data name="lblQuitEarly.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>TopCenter</value>
+  </data>
+  <data name="&gt;&gt;lblQuitEarly.Name" xml:space="preserve">
+    <value>lblQuitEarly</value>
+  </data>
+  <data name="&gt;&gt;lblQuitEarly.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblQuitEarly.Parent" xml:space="preserve">
+    <value>pnlMessage</value>
+  </data>
+  <data name="&gt;&gt;lblQuitEarly.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="pnlMessage.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="pnlMessage.Size" type="System.Drawing.Size, System.Drawing">
+    <value>343, 50</value>
+  </data>
+  <data name="pnlMessage.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;pnlMessage.Name" xml:space="preserve">
+    <value>pnlMessage</value>
+  </data>
+  <data name="&gt;&gt;pnlMessage.Type" xml:space="preserve">
     <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;Panel1.Parent" xml:space="preserve">
+  <data name="&gt;&gt;pnlMessage.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
-  <data name="&gt;&gt;Panel1.ZOrder" xml:space="preserve">
+  <data name="&gt;&gt;pnlMessage.ZOrder" xml:space="preserve">
     <value>0</value>
   </data>
   <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
@@ -340,7 +382,7 @@
     <value>7, 13</value>
   </data>
   <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
-    <value>343, 104</value>
+    <value>343, 92</value>
   </data>
   <data name="$this.Font" type="System.Drawing.Font, System.Drawing">
     <value>Verdana, 8.25pt</value>

@@ -38,3 +38,6 @@ C:\Personal\Dropbox\Development\Source Code\Breaker\Breaker\bin\Release\fr\ErgoB
 C:\Personal\Dropbox\Development\Source Code\Breaker\Breaker\bin\Release\DOATransparentLabel.dll
 C:\Personal\Dropbox\Development\Source Code\Breaker\Breaker\bin\Release\DOATransparentLabel.pdb
 C:\Personal\Dropbox\Development\Source Code\Breaker\Breaker\obj\x86\Release\fr\ErgoBreaker.resources.dll
+C:\Users\me_la\Dropbox\Development\Source Code\Breaker\Breaker\bin\Release\ErgoBreaker.exe.config
+C:\Users\me_la\Dropbox\Development\Source Code\Breaker\Breaker\obj\x86\Release\ErgoBreaker.exe
+C:\Users\me_la\Dropbox\Development\Source Code\Breaker\Breaker\obj\x86\Release\ErgoBreaker.xml

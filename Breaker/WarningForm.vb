@@ -19,7 +19,8 @@
         End Set
     End Property
 
-    Public Property SkippedBreaks As Int32
+    Public Property SkippedBreaks As Integer
+    Public Property BreaksEndedEarly As Integer
 
     Private _seconds As Int32
 
@@ -57,6 +58,16 @@
                 lblCancelledBreaks.Text = "You cancelled your previous break."
             Else
                 lblCancelledBreaks.Text = String.Format("You cancelled your previous {0} breaks.", SkippedBreaks)
+            End If
+        End If
+        If BreaksEndedEarly = 0 Then
+            lblQuitEarly.Visible = False
+        Else
+            lblQuitEarly.Visible = True
+            If BreaksEndedEarly = 1 Then
+                lblQuitEarly.Text = "You quit your previous break early."
+            Else
+                lblQuitEarly.Text = String.Format("You quit your previous {0} breaks early.", BreaksEndedEarly)
             End If
         End If
     End Sub
