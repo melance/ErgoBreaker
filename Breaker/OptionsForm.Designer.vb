@@ -35,6 +35,7 @@ Partial Class OptionsForm
         Me.icoNotify = New System.Windows.Forms.NotifyIcon(Me.components)
         Me.mnuNotifyIcon = New System.Windows.Forms.ContextMenuStrip(Me.components)
         Me.mnuOptions = New System.Windows.Forms.ToolStripMenuItem()
+        Me.mnuPause = New System.Windows.Forms.ToolStripMenuItem()
         Me.mnuTakeABreak = New System.Windows.Forms.ToolStripMenuItem()
         Me.mnuSeperator1 = New System.Windows.Forms.ToolStripSeparator()
         Me.mnuAbout = New System.Windows.Forms.ToolStripMenuItem()
@@ -134,7 +135,7 @@ Partial Class OptionsForm
         '
         'mnuNotifyIcon
         '
-        Me.mnuNotifyIcon.Items.AddRange(New System.Windows.Forms.ToolStripItem() {Me.mnuOptions, Me.mnuTakeABreak, Me.mnuSeperator1, Me.mnuAbout, Me.mnuExit})
+        Me.mnuNotifyIcon.Items.AddRange(New System.Windows.Forms.ToolStripItem() {Me.mnuOptions, Me.mnuPause, Me.mnuTakeABreak, Me.mnuSeperator1, Me.mnuAbout, Me.mnuExit})
         Me.mnuNotifyIcon.Name = "mnuNotifyIcon"
         resources.ApplyResources(Me.mnuNotifyIcon, "mnuNotifyIcon")
         '
@@ -142,6 +143,11 @@ Partial Class OptionsForm
         '
         Me.mnuOptions.Name = "mnuOptions"
         resources.ApplyResources(Me.mnuOptions, "mnuOptions")
+        '
+        'mnuPause
+        '
+        Me.mnuPause.Name = "mnuPause"
+        resources.ApplyResources(Me.mnuPause, "mnuPause")
         '
         'mnuTakeABreak
         '
@@ -275,9 +281,7 @@ Partial Class OptionsForm
         'lnkFont
         '
         resources.ApplyResources(Me.lnkFont, "lnkFont")
-        Me.TableLayoutPanel1.SetColumnSpan(Me.lnkFont, 2)
         Me.lnkFont.Name = "lnkFont"
-        Me.lnkFont.TabStop = True
         '
         'dlgFont
         '
@@ -432,5 +436,5 @@ Partial Class OptionsForm
     Friend WithEvents radOnLockPause As System.Windows.Forms.RadioButton
     Friend WithEvents ToolTip1 As System.Windows.Forms.ToolTip
     Friend WithEvents radOnLockReset As System.Windows.Forms.RadioButton
-
+    Friend WithEvents mnuPause As ToolStripMenuItem
 End Class
