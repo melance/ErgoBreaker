@@ -28,6 +28,7 @@ Friend Class OptionsForm
     Private _breaksEndedEarly As Int32 = 0
     Private _childForms As Generic.List(Of BreakForm)
     Private WithEvents _warningForm As WarningForm
+    Private _paused As Boolean = False
 
     Public Sub New(ByVal culture As String)
         If Not String.IsNullOrWhiteSpace(culture) Then
@@ -223,7 +224,11 @@ Friend Class OptionsForm
     End Sub
 
     Private Sub SetNotifyText()
-        icoNotify.Text = String.Format("Next break scheduled for {0:hh:mm:ss tt}", _nextBreak)
+        If _paused Then
+            icoNotify.Text = "Paused"
+        Else
+            icoNotify.Text = String.Format("Next break scheduled for {0:hh:mm:ss tt}", _nextBreak)
+        End If
     End Sub
 
     Private Sub HideForm()
@@ -324,7 +329,7 @@ Friend Class OptionsForm
         UpdatePreview()
     End Sub
 
-    Private Sub lnkFont_LinkClicked(sender As Object, e As LinkLabelLinkClickedEventArgs) Handles lnkFont.LinkClicked
+    Private Sub lnkFont_LinkClicked(sender As Object, e As LinkLabelLinkClickedEventArgs)
         Dim font As New FontConverter
         dlgFont.Font = CType(font.ConvertFromString(lnkFont.Text), Font)
         If dlgFont.ShowDialog = Windows.Forms.DialogResult.OK Then
@@ -347,6 +352,8 @@ Friend Class OptionsForm
 
     Private Sub ExitApplication()
         icoNotify.Visible = False
+        tmrBreak.Enabled = False
+        tmrBreak.Dispose()
         Application.Exit()
     End Sub
 
@@ -355,7 +362,15 @@ Friend Class OptionsForm
         about.ShowDialog(Me)
     End Sub
 
-    Private Sub OptionsForm_Shown(sender As Object, e As EventArgs) Handles Me.Shown
-
+    Private Sub mnuPause_Click(sender As Object, e As EventArgs) Handles mnuPause.Click
+        If _paused Then
+            mnuPause.Text = "Pause"
+            SessionSwitch(Me, New SessionSwitchEventArgs(SessionSwitchReason.SessionUnlock))
+        Else
+            mnuPause.Text = "Resume"
+            SessionSwitch(Me, New SessionSwitchEventArgs(SessionSwitchReason.SessionLock))
+        End If
+        _paused = Not _paused
+        SetNotifyText()
     End Sub
 End Class
